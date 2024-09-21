@@ -1,0 +1,473 @@
+@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+html {
+    scroll-behavior: smooth;
+}
+html ,body{
+    background-color: #D9D9D9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow-x: hidden;
+   
+}
+nav{
+    width: 2000px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    background-color: #14532D;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+   
+}
+.navigation{
+
+    max-width: 1200px;
+    display: flex;
+    gap: 800px;
+    align-items: center;
+    color: white;
+    
+}
+.logo h2{
+    font-family: "Italiana", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    cursor: pointer;
+    position: relative;
+    right: -40px;
+}
+.tabs{
+    margin-left: -70px;
+    display: flex;
+    gap: 18px;
+}
+.tabs a{
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 800;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+.home{
+    width: 2000px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 90px;
+
+}
+.header{
+    max-width: 1200px;
+   max-height: 2000px;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+    gap: 200px;
+}
+.header .title{
+    font-family: "Noto Sans", sans-serif;
+    font-size: 35px;
+    color: #14532D;
+
+}
+.header .big_img img{
+    width: 450px;
+    height: 550px;
+    border-radius:20%;
+
+}
+.govt_logos{
+    width: 1200px;
+    height: 90px;
+    background-color:transparent;
+    border-radius: 10px;
+}
+.state_logos img{
+    width: 85px;
+    height: 75px;
+    transition: all 0.3s ease-in-out;
+}
+.state_logos img:hover{
+    scale: 1.2;
+    transition: all 0.3s ease-in-out;
+}
+.govt_logos{
+    position: relative;
+    top:40px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.logo_container{
+display: flex;
+justify-content: center;
+gap: 45px;
+}
+.who{
+    height: 800px;
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+
+}
+.who_text{
+    width: 600px;
+    height: auto;
+}
+.who_text h3{
+    font-size: 50px;
+    padding-bottom: 20px;
+    color: #14532D;
+    font-family: "Noto Sans", sans-serif;
+}
+.who_text p{
+    font-size: 40px;
+}
+.who_img{
+    width: 600px;
+    height: auto;
+}
+.who_img img{
+    width: 590px;
+    height: 370px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    transition: all 0.4s ease-in-out;
+}
+.who_img img:hover{
+    scale: 1.1;
+    transition: all 0.4s ease-in-out;
+}
+.milestone{
+    width: 1200px;
+    max-width: 1200px;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+}
+.milestone_cont{
+    display: flex;
+    justify-content:center;
+    align-items: start;
+    flex-direction: row;
+   gap: 30px;
+}
+.milestone_imgs1 img{
+    width: 450px;
+    height: 335px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    transition: all 0.3s ease-in-out;
+}
+.milestone_imgs2 img{
+    width: 450px;
+    height: 335px;
+   border-radius: 20px;
+   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+   transition: all 0.3s ease-in-out;
+}
+.milestone_title h3{
+    text-align: center;
+    font-size: 45px;
+    font-family: "Noto Sans", sans-serif;
+    color: #14532D;
+}
+.milestone_paragraph p{
+    font-size: 30px;
+    text-align: center;
+}
+.milestone_imgs1 img:hover{
+    scale: 1.08;
+    transition: all 0.4s ease-in-out;
+}
+.milestone_imgs2 img:hover{
+    scale: 1.08;
+    transition: all 0.4s ease-in-out;
+}
+.honouring{
+    width: 1200px;
+    max-width: 1200px;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+
+}
+.honouring_img1 img{
+    width: 470px;
+    height: 335px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    transition: all 0.3s ease-in-out;
+}
+.honouring_img2 img{
+    width: 470px;
+    height: 335px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    transition: all 0.3s ease-in-out;  
+}
+.honouring_img1 img:hover{
+    scale: 1.08;
+    transition: all 0.4s ease-in-out;
+}
+.honouring_img2 img:hover{
+    scale: 1.08;
+    transition: all 0.4s ease-in-out;
+}
+.honouring_cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+}
+.honouring_title h3{
+    text-align: center;
+    font-size: 50px;
+    font-family: "Noto Sans", sans-serif;
+    color: #14532D;
+
+}
+.honouring_subTitle h4{
+    text-align: center;
+    margin-top: -10px;
+    font-size: 40px;
+    font-family: "Noto Sans", sans-serif;
+    color: #14532D;
+}
+.honouring_paragraph p{
+text-align: center;
+font-size: 35px;
+}
+.biography{
+    width: 1200px;
+    max-width: 1200px;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.biography_title h2{
+    padding-left: 10px;
+    color: #14532D;
+    text-align: start;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 50px;
+}
+.biography_paragraph p{
+    text-align: center;
+    font-size: 35px;
+}
+.biography_paragraph a{
+    font-size: 30px;
+    padding-left: 500px;
+    text-decoration: none;
+    color: #14532D;
+}
+.qoute{
+    width: 1200px;
+    max-width: 1200px;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.qoute_img img{
+    width: 440px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.qoute_text h3{
+    font-size: 50px;
+    font-family: "DM Sans", sans-serif;
+    color: #14532D;
+}
+.qoute_text h1{
+    font-size: 100px;
+}
+.memories{
+    width: 1200px;
+    max-width: 1200px;
+    height: 1000px;
+  
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    flex-wrap: wrap;
+   
+}
+.memo_img{
+height: auto;
+width: auto;
+}
+#item1 img{
+width: 390px;
+height: 280px;
+border-radius: 10px;
+transition: all 0.4s ease-in-out;
+}
+#item1 img:hover{
+   scale: 1.04;
+   transition: all 0.4s ease-in-out;
+}
+#item2 img:hover{
+    scale: 1.04;
+    transition: all 0.4s ease-in-out;
+ }
+ #item3 img:hover{
+    scale: 1.04;
+    transition: all 0.4s ease-in-out;
+ }
+ #item4 img:hover{
+    scale: 1.04;
+    transition: all 0.4s ease-in-out;
+ }#item5 img:hover{
+    scale: 1.04;
+    transition: all 0.4s ease-in-out;
+ }#item6 img:hover{
+    scale: 1.04;
+    transition: all 0.4s ease-in-out;
+ }
+#item2 img{
+width: 390px;
+height: 270px;
+border-radius: 10px;
+transition: all 0.4s ease-in-out;
+}
+#item3 img{
+width: 380px;
+height: 280px;
+border-radius: 10px;
+transition: all 0.4s ease-in-out;
+}
+#item4 img{
+    width: 390px;
+    height: 290px;
+    border-radius: 10px;
+    padding-top: -20px;
+    position: relative;
+    transition: all 0.4s ease-in-out;
+    bottom: 5px;
+}
+#item5 img{
+    width: 390px;
+    height: 280px;
+    border-radius: 10px;
+    padding-top: -20px;
+    position: relative;
+    bottom: -15px;
+    transition: all 0.4s ease-in-out;
+
+}
+#item6 img{
+    transition: all 0.4s ease-in-out;
+    width: 380px;
+    height: 290px;
+    border-radius: 10px;
+    padding-top: -20px;
+    position: relative;
+    bottom: 5px;
+
+}
+#item img{
+width: 1180px;
+box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+.memories h1{
+position: relative;
+left: 43%;
+bottom: -680px;
+font-family: "DM Sans", sans-serif;
+color: #14532D;
+font-weight: 800;
+letter-spacing: 4px;
+}
+
+.funeral{
+    width: 1200px;
+    max-width: 1200px;
+    height: 1000px;
+    padding-top: 100px;
+  
+}
+.funeral .funeral_title{
+    width: 1200px;
+    height: 80px;
+}
+.funeral .funeral_title h3{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 100px;
+    color: #14532D;
+    font-family: "Noto Sans", sans-serif;
+
+}
+.funeral_text{
+    width: 450;
+    height: auto;
+    margin-right: 50px
+}
+.funeral .funeral_text p{
+text-align: start;
+font-size: 35px;
+}
+.funeral .funeral_img{
+    width: 550px;
+    height:auto ;
+}
+.funeral .funeral_img img{
+  width: 430px;
+  height: 350px;
+  border-radius: 12px;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  transition: all 0.4s ease-in-out;
+}
+.funeral .funeral_img img:hover{
+   scale: 1.09;
+   transition: all 0.4s ease-in-out;
+  }
+.funeral_cont{
+    padding-top: 150px;
+    display: flex;
+    flex-direction: row;
+}
+.last_nav{
+    height: 70px;
+    width: 2000px;
+    background-color: #14532D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  
+}
+.last_nav h4{
+letter-spacing: 1px;
+font-family: "DM Sans", sans-serif;
+}
